@@ -1,2 +1,0 @@
-# launch-page
-Test theme
