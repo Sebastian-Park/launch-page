@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <title>Sebastian Park</title>
 
-   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
     
 
@@ -69,7 +69,7 @@
             <source src="vr.mp4" type="video/mp4">
               Your browser does not support the video tag.
           </video>
-          <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+          <p class="col-md-8 fs-4">The following are a few personal projects I have been working on to teach myself more about Unity and audio-reactive components. All music was produced by me. Enjoy!</p>
         <button class="btn btn-primary btn-lg" type="button">Example button</button>
         </center>
         
@@ -181,8 +181,8 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading">Sampling Audio. <span class="text-muted">Manipulating Transforms.</span></h2>
+        <p class="lead">The audio is sampled and the level of a selected frequency band is attached to the procedurally generated cubes via a C# script. The purple bars represent different frequency bands being represented. The shaders are custom shader graphs that blends two patterns together using a time node fed through a sin-wave node.</p>
       </div>
       <div class="col-md-5">
         <video width="500" height="500" controls>
@@ -197,8 +197,8 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading">Animations <span class="text-muted">and Controllers.</span></h2>
+        <p class="lead">Sampled audio can also be used to affect other components, such as the animation speed of a character controller or the velocity of its rigidbody. When the character reaches a point at the end of the set of buildings, the buildings behind will move to the end of the line so the character can continue endlessly (as long as there is music to push it forward).</p>
       </div>
       <div class="col-md-5 order-md-1">
          <video width="500" height="500" controls>
@@ -213,8 +213,8 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading">Procedural <span class="text-muted">Mesh Generation.</span></h2>
+        <p class="lead">A script generates the square mesh procedurally and holds the information, such as positions of the vertices, in vector form. Using sampled audio, the script can tweak the height of a vertex if its radius matches a certain value, causing the target effect when the audio bands reach a certain point. The waves are generated in a similar manner, but do not rely on sampled audio. Instead the waves are caused by a sin function and time passed.</p>
       </div>
       <div class="col-md-5">
         <video width="500" height="500" controls>
